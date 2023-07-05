@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="backjoon.Day2Test" tests="1" skipped="1" failures="0" errors="0" timestamp="2023-06-28T08:52:40" hostname="gimdong-yeon-ui-MacBookAir.local" time="12.718">
+  <properties/>
+  <testcase name="testcase1()" classname="backjoon.Day2Test" time="12.718">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Gradle Test Executor 10" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-06-28T08:52:40" hostname="gimdong-yeon-ui-MacBookAir.local" time="12.842">
+  <properties/>
+  <testcase name="failed to execute tests" classname="Gradle Test Executor 10" time="12.842">
+    <failure message="org.gradle.api.internal.tasks.testing.TestSuiteExecutionException: Could not complete execution for Gradle Test Executor 10." type="org.gradle.api.internal.tasks.testing.TestSuiteExecutionException">org.gradle.api.internal.tasks.testing.TestSuiteExecutionException: Could not complete execution for Gradle Test Executor 10.
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base@11.0.17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.17/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.17/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3745)
+	at java.base/java.io.ByteArrayOutputStream.grow(ByteArrayOutputStream.java:120)
+	at java.base/java.io.ByteArrayOutputStream.ensureCapacity(ByteArrayOutputStream.java:95)
+	at java.base/java.io.ByteArrayOutputStream.write(ByteArrayOutputStream.java:156)
+	at java.base/java.io.PrintStream.write(PrintStream.java:559)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:312)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:104)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.write(PrintStream.java:606)
+	at java.base/java.io.PrintStream.print(PrintStream.java:759)
+	at backjoon.Day2.backTracking(Day2.java:42)
+	at backjoon.Day2.backTracking(Day2.java:49)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+	at backjoon.Day2.backTracking(Day2.java:51)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
